@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-    description: 'Labhya makes well-being programs accessible to vulnerable children in partnership with governments. We are creating a global movement for children’s well-being!',
+    description: 'Rangeen Khidki is a group of young professionals working together with the aim to build innovative ways to educate and empower communities from a human rights perspective.',
 }
 
 const page = () => {
