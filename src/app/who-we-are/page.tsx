@@ -159,7 +159,7 @@ const page = () => {
                                                 Ananya Chatterjee
                                             </h1>
                                             <p className="section-descr fw-light mb-0 mb-md-40 wow fadeInUp" data-wow-delay="0.15s">
-                                                Lead-Strategy & Founders' Office
+                                                Lead-Strategy & Founders&apos; Office
                                             </p>
                                         </div>
                                         <div className="col-12 col-lg-3 px-4">

@@ -72,7 +72,7 @@ const page = () => {
                                                     <div className="partner-logo-holder justify-content-center align-items-center col-12">
                                                         <img src="rangeenkhidki/impact-story/6.png" alt="slide-6" />
                                                         <p>
-                                                            Rangeen Khidki helps further Uma's search for knowledge and guides the young people towards a path of unlearning and relearning their own bodily autonomy.
+                                                            Rangeen Khidki helps further Uma&apos;s search for knowledge and guides the young people towards a path of unlearning and relearning their own bodily autonomy.
                                                         </p>
                                                     </div>
                                                 </div>

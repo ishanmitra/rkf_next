@@ -1,7 +1,6 @@
 import React from 'react'
 import type { Metadata } from 'next'
 import Script from 'next/script'
-import Video from '@/components/Video/Video'
 
 export const metadata: Metadata = {
     description: 'Labhya makes well-being programs accessible to vulnerable children in partnership with governments. We are creating a global movement for children’s well-being!',
