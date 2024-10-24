@@ -1,0 +1,503 @@
+import React from 'react'
+import type { Metadata } from 'next'
+import Script from 'next/script'
+import Video from '@/components/Video/Video'
+
+export const metadata: Metadata = {
+    description: 'Labhya makes well-being programs accessible to vulnerable children in partnership with governments. We are creating a global movement for children’s well-being!',
+}
+
+const page = () => {
+    return (
+        <main id="main">
+            <div className="content-wrapper">
+
+
+                {/* Home Section */}
+                <section className="home-section" id="home">
+                    <div className="container-full-width">
+                        <div className="row g-0">
+                            <div className="col-12 col-lg-7 col-xl-8 col-xxl-8 col-xxxl-9 d-flex align-items-stretch">
+                                <div className="split-image-left rounded-0">
+                                    <img src="labhya24storage.blob.core.windows.net/private/home/banner.jpg"
+                                        srcSet="labhya24storage.blob.core.windows.net/private/home/banner.jpg 1x, labhya24storage.blob.core.windows.net/private/home/banner@2x.jpg 2x"
+                                        alt="" className="wow fadeScaleOutIn" data-wow-duration="1.3s" />
+                                </div>
+                            </div>
+                            <div className="col-12 col-lg-5 col-xl-4 col-xxl-4 col-xxxl-3 order-lg-first">
+                                <div className="row g-0 my-4">
+                                    <div id="sun-and-cloud-wrapper" className="wow fadeInUp wch-unset" data-wow-delay="0.3s"
+                                        data-wow-offset="0">
+                                        <img id="sun-and-cloud"
+                                            src="labhya24storage.blob.core.windows.net/private/home/sun-and-cloud.png"
+                                            alt="" className="floating-image" width="216" />
+                                    </div>
+                                </div>
+                                <div className="row g-0">
+                                    <div
+                                        className="d-flex align-items-center split-column-right position-relative rounded-0 p-0">
+                                        <div className="d-flex justify-content-center w-100 text-center text-lg-start">
+                                            <div className="max-vw-33">
+                                                <h2 className="hs-title-7 color-primary-1 mb-30 mb-md-20 wow fadeInUp">
+                                                    Enabling children to become
+                                                </h2>
+                                                <h1 className="hs-title-9 color-primary-1 mb-20 wow fadeInUp">
+                                                    <span className="color-gradient-primary-1 narrow-text">
+                                                        <span className="d-inline-block">
+                                                            <span>e</span>{" "}
+                                                            <span>f</span>{" "}
+                                                            <span>f</span>{" "}
+                                                            <span>e</span>{" "}
+                                                            <span>c</span>{" "}
+                                                            <span>t</span>{" "}
+                                                            <span>i</span>{" "}
+                                                            <span>v</span>{" "}
+                                                            <span>e</span>{" "}
+                                                            <span className="nbsp">&nbsp;</span>&nbsp;
+                                                        </span>
+                                                        <span className="d-inline-block">
+                                                            <span>l</span>{" "}
+                                                            <span>e</span>{" "}
+                                                            <span>a</span>{" "}
+                                                            <span>r</span>{" "}
+                                                            <span>n</span>{" "}
+                                                            <span>e</span>{" "}
+                                                            <span>r</span>{" "}
+                                                            <span>s</span>
+                                                        </span>
+                                                    </span>
+                                                </h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="row g-0">
+                                    <div id="cloud-03-01-wrapper" className="floating-image-wrapper">
+                                        <img id="cloud-03-01"
+                                            src="labhya24storage.blob.core.windows.net/private/home/cloud-033.png"
+                                            alt="" className="wow wch-unset floating-image" data-wow-delay="0.3s"
+                                            data-wow-offset="0" width="180" fetchPriority="high" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* End Home Section */}
+
+                {/* Section 1 */}
+                <section className="page-section bg-white bg-scroll py-0" id="slum-to-school">
+                    <div className="container"></div>
+                    <div className="row g-0">
+                        <div className="col-12 d-flex align-items-stretch order-lg-first">
+                            <div className="w-100 rounded-0" id="relentless-banner"></div>
+                        </div>
+                    </div>
+                </section>
+                {/* End Section 1 */}
+
+                {/* -- Section 1 --
+    <section className="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content">
+        <div className="container position-relative">
+            <div className="row">
+                <div className="col-12 text-center">
+                    <h2 className="fw-light lh-lg mt-60 mt-sm-50 mb-60 mb-sm-50">
+                        “We are <b>relentless</b>, <b>hungry</b>, and <b>unapologetic</b> in our <br />pursuit of what’s best for our children, every single day.”
+                    </h2>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    {/* End Section 1 */}
+
+                {/* Section 3 */}
+                <section className="page-section bg-white bg-scroll section-pt-auto pb-0">
+                    <div className="container"></div>
+                    <div className="row g-0">
+                        <div className="d-flex justify-content-center align-items-center col-12 col-lg-6 col-xl-4">
+                            <div className="d-flex rounded-0 position-relative px-5">
+                                <div className="w-100 text-center text-lg-start max-vw-33">
+                                    <h1
+                                        className="hs-title-9 color-gradient-primary-3 narrow-text mb-50 mb-sm-20 wow fadeInUp">
+                                        <span className="d-inline-block">
+                                            <span>W</span>{" "}
+                                            <span>h</span>{" "}
+                                            <span>a</span>{" "}
+                                            <span>t</span>{" "}
+                                            <span className="nbsp">&nbsp;</span>&nbsp;
+                                        </span>
+                                        <span className="d-inline-block">
+                                            <span>d</span>{" "}
+                                            <span>r</span>{" "}
+                                            <span>i</span>{" "}
+                                            <span>v</span>{" "}
+                                            <span>e</span>{" "}
+                                            <span>s</span>{" "}
+                                            <span className="nbsp">&nbsp;</span>&nbsp;
+                                        </span>
+                                        <span className="d-inline-block">
+                                            <span>u</span>{" "}
+                                            <span>s</span>{" "}
+                                        </span>
+                                    </h1>
+                                    <p className="section-descr fw-light mb-60 mb-sm-40 wow fadeInUp p-text"
+                                        data-wow-delay="0.15s">
+                                        <b>190 million children</b> are enrolled in public schools of India and lack the
+                                        essential skills to learn effectively.
+                                    </p>
+                                    <div className="wow fadeInUp wch-unset" data-wow-delay="0.3s" data-wow-offset="0">
+                                        <div className="local-scroll btn-wrapper mb-60">
+                                            <a href="what-we-do/challenge.html"
+                                                className="btn btn-mod btn-color-3 btn-small btn-full-round btn-hover-anim">
+                                                <span>Challenge</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-6 col-xl-8 d-flex align-items-stretch order-lg-first">
+                            <div className="w-100 rounded-0">
+                                <img src="labhya24storage.blob.core.windows.net/private/home/what-drives-us.jpg"
+                                    srcSet="labhya24storage.blob.core.windows.net/private/home/what-drives-us.jpg 1x, labhya24storage.blob.core.windows.net/private/home/what-drives-us@2x.jpg 2x"
+                                    alt="" className="wow fadeScaleOutIn w-100" data-wow-duration="1.3s" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* End Section 3 */}
+
+                {/* Section 4 */}
+                <section className="page-section bg-white bg-scroll section-pt-auto py-0">
+                    <div className="container"></div>
+                    <div className="row g-0">
+                        <div className="d-flex flex-column col-12 col-lg-6">
+                            <div className="row g-0">
+                                <div className="d-flex justify-content-center wow fadeInUp wch-unset" data-wow-delay="0.5s"
+                                    data-wow-offset="0">
+                                    <img id="star-01"
+                                        src="labhya24storage.blob.core.windows.net/private/home/star.png" alt=""
+                                        className="wow fadeScaleOutIn" data-wow-duration="1.3s" width="180" />
+                                </div>
+                            </div>
+                            <div className="row g-0">
+                                <div
+                                    className="d-flex justify-content-center rounded-0 position-relative align-items-center px-5 py-5 py-none-md py-none-sm">
+                                    <div className="d-flex flex-column w-100 text-center text-lg-start max-vw-40">
+                                        <h1 id="pioneer-title"
+                                            className="hs-title-9 color-gradient-primary-1 narrow-text mb-50 mb-sm-20 wow fadeInUp">
+                                            <span className="pioneer-text d-inline-block">
+                                                <span>P</span>{" "}
+                                                <span>i</span>{" "}
+                                                <span>o</span>{" "}
+                                                <span>n</span>{" "}
+                                                <span>e</span>{" "}
+                                                <span>e</span>{" "}
+                                                <span>r</span>{" "}
+                                                <span>i</span>{" "}
+                                                <span>n</span>{" "}
+                                                <span>g</span>{" "}
+                                                <span className="nbsp">&nbsp;</span>&nbsp;
+                                            </span>
+                                            <span className="pioneer-text d-inline-block">
+                                                <span>t</span>{" "}
+                                                <span>h</span>{" "}
+                                                <span>e</span>{" "}
+                                                <span className="nbsp">&nbsp;</span>&nbsp;
+                                            </span>
+                                            <span className="pioneer-text d-inline-block">
+                                                <span>w</span>{" "}
+                                                <span>e</span>{" "}
+                                                <span>l</span>{" "}
+                                                <span>l</span>{" "}
+                                                <span>&#8209;</span>{" "}
+                                                <span>b</span>{" "}
+                                                <span>e</span>{" "}
+                                                <span>i</span>{" "}
+                                                <span>n</span>{" "}
+                                                <span>g</span>{" "}
+                                                <span className="nbsp">&nbsp;</span>&nbsp;
+                                            </span>
+                                            <br />
+                                                <span className="pioneer-text d-inline-block">
+                                                    <span>m</span>{" "}
+                                                    <span>o</span>{" "}
+                                                    <span>v</span>{" "}
+                                                    <span>e</span>{" "}
+                                                    <span>m</span>{" "}
+                                                    <span>e</span>{" "}
+                                                    <span>n</span>{" "}
+                                                    <span>t</span>{" "}
+                                                    <span className="nbsp">&nbsp;</span>&nbsp;
+                                                </span>
+                                                <span className="pioneer-text d-inline-block">
+                                                    <span>i</span>{" "}
+                                                    <span>n</span>{" "}
+                                                    <span className="nbsp">&nbsp;</span>&nbsp;
+                                                </span>
+                                                <span className="pioneer-text d-inline-block">
+                                                    <span>I</span>{" "}
+                                                    <span>n</span>{" "}
+                                                    <span>d</span>{" "}
+                                                    <span>i</span>{" "}
+                                                    <span>a</span>{" "}
+                                                </span>
+                                        </h1>
+                                        <p className="section-descr fw-light mb-60 mb-sm-50 wow fadeInUp p-text"
+                                            data-wow-delay="0.15s">
+                                            Labhya is a visionary nonprofit that has pioneered the well&#8209;being
+                                            movement in India. We are dedicated to institutionalizing programs that
+                                            improve the quality of education and well&#8209;being for children. We
+                                            partner with governments to co&#8209;create and ensure the effective
+                                            implementation of state&#8209;wide well&#8209;being programs that are
+                                            integrated into the school day.
+                                        </p>
+                                        <div className="wow fadeInUp wch-unset" data-wow-delay="0.3s" data-wow-offset="0">
+                                            <div className="local-scroll btn-wrapper mb-60">
+                                                <a href="what-we-do.html"
+                                                    className="btn btn-mod btn-color btn-small btn-full-round btn-hover-anim">
+                                                    <span>What we do</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row g-0">
+                                <div className="wow fadeInUp wch-unset" data-wow-delay="0.5s" data-wow-offset="0">
+                                    <img id="cloud-02-01"
+                                        src="labhya24storage.blob.core.windows.net/private/home/cloud-02.png" alt=""
+                                        className="wow fadeScaleOutIn floating-image" data-wow-duration="1.3s"
+                                        width="480" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-6 d-flex align-items-stretch justify-content-end">
+                            <div className="w-100 rounded-0">
+                                <img id="well-being-movement"
+                                    src="labhya24storage.blob.core.windows.net/private/home/well-being-movement.jpg"
+                                    srcSet="labhya24storage.blob.core.windows.net/private/home/well-being-movement.jpg 1x, labhya24storage.blob.core.windows.net/private/home/well-being-movement@2x.jpg 2x"
+                                    alt="" className="wow fadeScaleOutIn w-100" data-wow-duration="1.3s" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* End Section 4 */}
+
+                {/* Video Section */}
+                <Video videoUrl="labhya24storage.blob.core.windows.net/private/home/happiness-video.mp4" />
+                {/* End Video Section */}
+
+                {/* Section 6 */}
+                <section className="page-section bg-white bg-scroll">
+                    <div className="container position-relative">
+                        <div className="row">
+                            <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-center">
+                                <h1 className="hs-title-9 color-gradient-primary-1 narrow-text mb-50 mb-sm-20 wow fadeInUp">
+                                    <span className="d-inline-block">
+                                        <span>O</span>{" "}
+                                        <span>u</span>{" "}
+                                        <span>r</span>{" "}
+                                    </span>
+                                    <span className="nbsp">&nbsp;</span>&nbsp;
+                                    <span className="d-inline-block">
+                                        <span>i</span>{" "}
+                                        <span>m</span>{" "}
+                                        <span>p</span>{" "}
+                                        <span>a</span>{" "}
+                                        <span>c</span>{" "}
+                                        <span>t</span>{" "}
+                                    </span>
+                                </h1>
+                                <div className="max-vw-36 mx-auto">
+                                    <p className="section-descr fw-light mb-0 wow fadeInUp p-text" data-wow-delay="0.15s">
+                                        Currently, Labhya partners with 3 Indian state governments to co&#8209;create <b
+                                            className="color-primary-1">well&#8209;being programs</b> that enable 2.4
+                                        million children to become effective learners!
+                                    </p>
+                                </div>
+                                <div className="row mt-0 mb-3 mb-lg-5 g-3">
+                                    <div className="col-12 col-lg-4">
+                                        <img src="labhya24storage.blob.core.windows.net/private/home/children.png"
+                                            alt="" className="wow fadeScaleOutIn mb-40 mb-sm-20" data-wow-duration="1.3s"
+                                            width="180" />
+                                        <h1 className="hs-title-9 color-primary-1 strong-title mb-20 mb-sm-20 wow fadeInUp">
+                                            2.4 million
+                                        </h1>
+                                        <p className="section-descr fw-light mb-0 mb-md-40 wow fadeInUp"
+                                            data-wow-delay="0.15s">
+                                            <b>Children</b>
+                                        </p>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img src="labhya24storage.blob.core.windows.net/private/home/teachers.png"
+                                            alt="" className="wow fadeScaleOutIn mb-40 mb-sm-20" data-wow-duration="1.3s"
+                                            width="180" />
+                                        <h1 className="hs-title-9 color-primary-1 strong-title mb-20 mb-sm-20 wow fadeInUp">
+                                            <span className="">150,000</span>+
+                                        </h1>
+                                        <p className="section-descr fw-light mb-0 mb-md-40 wow fadeInUp"
+                                            data-wow-delay="0.15s">
+                                            <b>Teachers</b>
+                                        </p>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img src="labhya24storage.blob.core.windows.net/private/home/government.png"
+                                            alt="" className="wow fadeScaleOutIn mb-40 mb-sm-20" data-wow-duration="1.3s"
+                                            width="180" />
+                                        <h1 className="hs-title-9 color-primary-1 strong-title mb-20 mb-sm-20 wow fadeInUp">
+                                            <span className="">22,000</span>+
+                                        </h1>
+                                        <p className="section-descr fw-light mb-0 mb-md-40 wow fadeInUp"
+                                            data-wow-delay="0.15s">
+                                            <b>Schools</b>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="wow fadeInUp wch-unset" data-wow-delay="0.3s" data-wow-offset="0">
+                                    <div className="local-scroll btn-wrapper mt-60 mb-60 mb-sm-0">
+                                        <a href="impact.html"
+                                            className="btn btn-mod btn-color btn-small btn-full-round btn-hover-anim">
+                                            <span>See our impact</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* End Section 6 */}
+
+                {/* Logos Section */}
+                <section className="page-section bg-primary-1-a bg-scroll light-content">
+                    <div className="container position-relative">
+                        <div className="row">
+                            <div className="col-12 col-xl-10 offset-xl-1 text-center">
+                                <h1 className="hs-title-9 mb-60 mb-sm-40 wow fadeInUp">Our partners and supporters</h1>
+                                <div className="position-relative">
+                                    <div className="swiper-container mb-0">
+                                        <div className="inf-slider">
+                                            <div className="inf-slider-track">
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/ecosystem-United%20Nations.png"
+                                                    alt="UN" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/ecosystem-UNICEF.png"
+                                                    alt="UNICEF" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/stakeholder-us_aid_white.png"
+                                                    alt="USAID" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/stakeholder-FID_white.png"
+                                                    alt="FID" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/strategy-mulago.png"
+                                                    alt="Mulago" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/strategy-drk.png"
+                                                    alt="DRK" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/strategy-harward.png"
+                                                    alt="Harvard" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/stakeholder-echidna_white.png"
+                                                    alt="Echidna Giving" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/strategy-LSE.png"
+                                                    alt="LSE" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/Strategy%20%26%20ecosystem-%20Selena%20Gomez.png"
+                                                    alt="Selena Gomez" style={{ maxWidth: 'initial' }} />
+                                            </div>
+                                            <div className="inf-slider-track">
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/ecosystem-United%20Nations.png"
+                                                    alt="UN" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/ecosystem-UNICEF.png"
+                                                    alt="UNICEF" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/stakeholder-us_aid_white.png"
+                                                    alt="USAID" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/stakeholder-FID_white.png"
+                                                    alt="FID" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/strategy-mulago.png"
+                                                    alt="Mulago" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/strategy-drk.png"
+                                                    alt="DRK" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/strategy-harward.png"
+                                                    alt="Harvard" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/stakeholder-echidna_white.png"
+                                                    alt="Echidna Giving" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/strategy-LSE.png"
+                                                    alt="LSE" style={{ maxWidth: 'initial' }} />
+                                                <img className="w-auto px-5"
+                                                    src="labhya24storage.blob.core.windows.net/private/partners/logo_white/Strategy%20%26%20ecosystem-%20Selena%20Gomez.png"
+                                                    alt="Selena Gomez" style={{ maxWidth: 'initial' }} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* End Logos Section */}
+
+                {/* Donate Section */}
+                <section className="page-section bg-white bg-scroll py-0">
+                    <div className="container position-relative"></div>
+                    <div className="row g-0">
+                        <div className="col-12 col-lg-7 d-flex align-items-stretch">
+                            <div className="rounded-0">
+                                <img src="labhya24storage.blob.core.windows.net/private/home/donate.jpg"
+                                    srcSet="labhya24storage.blob.core.windows.net/private/home/donate.jpg 1x, labhya24storage.blob.core.windows.net/private/home/donate@2x.jpg 2x"
+                                    alt="" className="wow fadeScaleOutIn w-100" data-wow-duration="1.3s" />
+                            </div>
+                        </div>
+                        <div className="d-flex justify-content-center align-items-center col-12 col-lg-5">
+                            <div className="text-center px-4 rounded-0">
+                                <h1 className="hs-title-9 color-primary-1 mt-0 mt-md-30 mb-30 mb-lg-20 wow fadeInUp">
+                                    Every contribution&nbsp;
+                                    <span className="color-gradient-primary-1 narrow-text-lg d-inline-block">
+                                        <i>
+                                            <span>c</span>{" "}
+                                            <span>o</span>{" "}
+                                            <span>u</span>{" "}
+                                            <span>n</span>{" "}
+                                            <span>t</span>{" "}
+                                            <span>s</span>{" "}
+                                        </i>
+                                    </span>
+                                </h1>
+                                <p className="section-descr fw-light lh-lg max-vw-27 mx-auto mb-50 mb-lg-40 p-text">Support
+                                    us in co&#8209;creating well&#8209;being programs for vulnerable children at scale.
+                                </p>
+                                <div className="wow fadeInUp wch-unset" data-wow-delay="0.3s" data-wow-offset="0">
+                                    <div className="local-scroll mb-0 mb-md-50">
+                                        <a target="_blank" href="https://forms.gle/jJoUN8nPzHFFfRVG7"
+                                            className="btn btn-mod btn-color btn-large btn-full-round btn-hover-anim">
+                                            <span>Donate</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* End Donate Section */}
+
+
+            </div>
+        </main>
+    )
+}
+
+export default page

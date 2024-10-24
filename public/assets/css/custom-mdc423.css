@@ -1,0 +1,262 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .inner-nav {
+        padding: 0 !important;
+    }
+
+    .mobile-on .desktop-nav ul li a {
+        padding: 20px 16px !important;
+    }
+
+    #left-nav {
+        margin-left: 0 !important;
+    }
+
+    #right-nav {
+        display: none !important;
+    }
+
+    .split-column-left, .split-column-right {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .hs-title-9 {
+        font-size: 54px !important;
+    }
+
+    .split-column-right {
+        padding-left: 0 !important;
+        min-height: 60vh;
+    }
+
+    .split-column-right-short {
+        min-height: 48vh;
+    }
+
+    #cloud-03-01 {
+        left: 67%;
+        bottom: 7vh;
+        z-index: 100;
+    }
+
+    #sun-and-cloud {
+        left: 7%;
+        top: 5vh;
+        z-index: 99;
+    }
+
+    #cloud-01-02 {
+        left: 30%;
+        top: -15vh;
+        z-index: 99;
+    }
+
+    #sun-01 {
+        left: 50%;
+        top: -22vh;
+    }
+
+    #slum-to-school-bg {
+        background-position: 100% 67% !important;
+        min-height: 80vh;
+    }
+
+    .py-none-md {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .padding-top-12rem {
+        padding-top: 2rem !important;
+    }
+
+    #star-01 {
+        left: 36%;
+        top: -15vh;
+        z-index: 100;
+    }
+
+    #meadow {
+        min-height: 50vh;
+    }
+
+    #home-video {
+        width: 100%;
+        height: 100vw;
+    }
+
+    #sun-02 {
+        left: 84%;
+        top: 10%;
+        z-index: 99;
+    }
+
+    #grass {
+        width: 50vw;
+        bottom: 0;
+        right: 0;
+    }
+
+    #iceberg-of-hardship-bg {
+        background-position: 54% 100% !important;
+        min-height: 80vh;
+    }
+
+    .split-column-right-short-alt {
+        min-height: 48vh;
+    }
+
+    #cloud-04-02 {
+        width: 0 !important;
+    }
+
+    #blink-01 {
+        left: 25%;
+        top: 10vh;
+    }
+
+    #blink-02 {
+        left: 42%;
+        top: 15vh;
+    }
+
+    #blink-03 {
+        left: 75%;
+        top: 5vh;
+    }
+
+    #blink-04 {
+        left: 48%;
+        top: 54vh;
+    }
+
+    .change-blue-box-wrapper {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .change-blue-box {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #shooting-star {
+        width: 0 !important;
+    }
+
+    #impact-star-01 {
+        left: 36%;
+        top: -15vh;
+        z-index: 100;
+    }
+
+    #impact-progress {
+        min-height: 64vw;
+    }
+
+    #cloud-02-02 {
+        left: -10%;
+        top: 0;
+        z-index: 100;
+    }
+
+    #vision-row {
+        min-height: 36vh;
+    }
+
+    .vision-column {
+        min-height: 72px;
+    }
+
+    .mission-column {
+        min-height: 120px;
+    }
+
+    #mission {
+        min-height: 36vh;
+    }
+
+    #cloud-03-02 {
+        left: 10%;
+        top: 2vh;
+        z-index: 100;
+    }
+
+    #sun-vision {
+        right: 5%;
+        top: -100%;
+        z-index: 100;
+    }
+
+    #cloud-05-02 {
+        left: 10%;
+        bottom: -120px;
+        z-index: 100;
+    }
+
+    #blink-05 {
+        left: 8%;
+        top: 4vh;
+    }
+
+    #blink-06 {
+        left: 15%;
+        top: 15vh;
+    }
+
+    #blink-07 {
+        left: 42%;
+        top: 8vh;
+    }
+
+    #blink-08 {
+        left: 80%;
+        top: 5vh;
+    }
+
+    #blink-09 {
+        left: 20%;
+        bottom: 20vh;
+    }
+
+    #blink-10 {
+        left: 64%;
+        bottom: 15vh;
+    }
+
+    #shooting-star-mission {
+        width: 0 !important;
+    }
+
+    #cloud-01-03 {
+        width: 0 !important;
+    }
+
+    .col-one-fifth {
+        flex: 0 0 auto;
+        width: 49% !important;
+    }
+
+    .section-pt-auto {
+        padding-top: 60px !important;
+    }
+
+    .section-pb-auto {
+        padding-bottom: 60px !important;
+    }
+
+    .section-py-auto {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .swiper-wrapper {
+        padding-bottom: 40px !important;
+    }
+
+    .swiper-wrapper.swiper-pagination {
+        bottom: 1rem !important;
+    }
+
+}

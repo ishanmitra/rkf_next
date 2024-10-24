@@ -1,0 +1,227 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .split-column-right-short {
+        min-height: 90vh;
+    }
+
+    .split-column-right-short-alt {
+        min-height: 360px;
+    }
+
+    #cloud-03-01 {
+        bottom: 10vh;
+        left: 67%
+    }
+
+    #sun-and-cloud {
+        left: 12%;
+        top: 7vh;
+        z-index: 100;
+    }
+
+    #cloud-01-02 {
+        left: 20%;
+        top: -20vh;
+        z-index: 100;
+    }
+
+    #sun-01 {
+        left: 50%;
+        top: -27vh;
+        z-index: 99;
+    }
+
+    #slum-to-school-bg {
+        background-position: 100% 67% !important;
+        padding-top: 72px !important;
+        min-height: 80vh;
+    }
+
+    .section-descr-medium {
+        font-size: 1rem !important;
+    }
+
+    .padding-top-12rem {
+        padding-top: 0 !important;
+    }
+
+    #cloud-02-01 {
+        left: -15%;
+        top: -5vh;
+        z-index: 100;
+    }
+
+    #star-01 {
+        left: 25%;
+        top: -2vh;
+        z-index: 100;
+    }
+
+    .btn-wrapper {
+        margin-bottom: 0 !important;
+    }
+
+    #home-video {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #meadow {
+        min-height: 50vh;
+    }
+
+    #sun-02 {
+        left: 84%;
+        top: 10%;
+        z-index: 99;
+    }
+
+    #grass {
+        width: 50vw;
+        bottom: 0;
+        right: 0;
+    }
+
+    #iceberg-of-hardship-bg {
+        background-position: 50% 100% !important;
+        min-height: 50vh;
+    }
+
+    #cloud-04-02 {
+        left: 67%;
+        top: 0;
+        z-index: 99;
+    }
+
+    #happy-childhood {
+        height: 100% !important;
+    }
+
+    #blink-01 {
+        left: 25%;
+        top: 10vh;
+    }
+
+    #blink-02 {
+        left: 42%;
+        top: 15vh;
+    }
+
+    #blink-03 {
+        left: 75%;
+        top: 5vh;
+    }
+
+    #blink-04 {
+        left: 48%;
+        top: 54vh;
+    }
+
+    .change-blue-box-wrapper {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .change-blue-box {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    #shooting-star {
+        left: 84%;
+        top: 0;
+        z-index: 99;
+    }
+
+    #impact-star-01 {
+        left: 25%;
+        top: -2vh;
+        z-index: 100;
+    }
+
+    #impact-progress {
+        min-height: 72vw;
+    }
+
+    #cloud-02-02 {
+        left: -10%;
+        top: -16vh;
+        z-index: 100;
+    }
+
+    #vision-row {
+        min-height: 42vh;
+    }
+
+    .vision-column {
+        min-height: 8vw;
+    }
+
+    .mission-column {
+        min-height: 8vw;
+    }
+
+    #cloud-03-02 {
+        left: 16%;
+        top: 0;
+        z-index: 100;
+    }
+
+    #sun-vision {
+        right: 5%;
+        top: 20%;
+        z-index: 100;
+    }
+
+    #cloud-05-02 {
+        left: 0;
+        bottom: -90px;
+        z-index: 100;
+    }
+
+    #blink-05 {
+        left: 30%;
+        top: 7vh;
+    }
+
+    #blink-06 {
+        left: 54%;
+        top: 8vh;
+    }
+
+    #blink-07 {
+        left: 72%;
+        top: 5vh;
+    }
+
+    #blink-08 {
+        left: 90%;
+        top: 10vh;
+    }
+
+    #blink-09 {
+        left: 84%;
+        bottom: 8vh;
+    }
+
+    #blink-10 {
+        left: 54%;
+        bottom: 5vh;
+    }
+
+    #shooting-star-mission {
+        width: 0 !important;
+    }
+
+    #cloud-01-03 {
+        left: 80%;
+        top: -20vh;
+        z-index: 100;
+    }
+
+    .col-one-fifth {
+        flex: 0 0 auto;
+        width: 19% !important;
+    }
+
+}

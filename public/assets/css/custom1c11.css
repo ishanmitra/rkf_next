@@ -1,0 +1,293 @@
+.main-nav {
+    box-shadow: none !important;
+}
+
+#left-nav {
+    margin-left: 6rem !important;
+}
+
+.nav-item {
+    text-underline-offset: 8px;
+}
+
+#right-nav li {
+    height: var(--menu-bar-height);
+}
+
+#right-nav li a:hover {
+    color: #fff !important;
+}
+
+.btn-mod.btn-full-round {
+    border-radius: 24px;
+    padding: 10px 30px;
+}
+
+.btn-mod.btn-full-round.btn-hover-anim:before {
+    z-index: -1;
+}
+
+a.link-to-top.color:before {
+    background: var(--color-primary-1-a) !important;
+}
+
+.btn-mod.btn-white {
+    color: var(--color-primary-1);
+    background: #fff;
+}
+
+.btn-mod.btn-white.btn-hover-anim:hover {
+    color: var(--color-primary-1-a);
+    border-color: #fafafa;
+}
+
+.btn-mod.btn-white.btn-hover-anim:before {
+    background: #fafafa;
+}
+
+#footer-container {
+    padding-top: 5rem!important;
+    padding-bottom: 3rem!important;
+}
+
+.legal-link {
+    text-decoration: none !important;
+}
+
+.fw-menu-text-medium {
+    font-size: 24px;
+}
+
+.fw-menu-text-medium li:not(:last-child) {
+    margin-bottom: 1rem !important;
+}
+
+.hs-title-6 {
+    font-size: 20px !important;
+}
+
+.hs-title-7 {
+    font-size: 24px !important;
+}
+
+.hs-title-8 {
+    font-size: 36px !important;
+}
+
+.hs-title-9 {
+    font-size: 42px !important;
+}
+
+.lh-md {
+    line-height: 1.5 !important;
+}
+
+.close-text {
+    letter-spacing: -0.25rem;
+}
+
+.narrow-text {
+    letter-spacing: -0.45rem;
+}
+
+.narrow-text-lg {
+    letter-spacing: -0.35rem;
+}
+
+.narrow-text-md {
+    letter-spacing: -0.25rem;
+}
+
+.color-gradient-primary-1 span:nth-of-type(odd) {
+    color: var(--color-primary-1) !important;
+}
+
+.color-gradient-primary-1 span:nth-of-type(even) {
+    color: var(--color-primary-1-a) !important;
+}
+
+.color-gradient-primary-3 span:nth-of-type(odd) {
+    color: var(--color-primary-3) !important;
+}
+
+.color-gradient-primary-3 span:nth-of-type(even) {
+    color: var(--color-primary-light-3) !important;
+}
+
+.split-column-right {
+    min-height: 90vh;
+}
+
+.floating-image-wrapper {
+    position: relative;
+    z-index: 100;
+}
+
+.floating-image {
+    position: absolute;
+}
+
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-pt-min {
+    padding-top: 48px !important;
+}
+
+.section-pt-auto {
+    padding-top: var(--section-padding-y) !important;
+}
+
+.section-pb-auto {
+    padding-bottom: var(--section-padding-y) !important;
+}
+
+.section-py-auto {
+    padding-top: var(--section-padding-y) !important;
+    padding-bottom: var(--section-padding-y) !important;
+}
+
+#well-being-movement {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    max-width: 100%;
+}
+
+#iceberg-of-hardship-bg {
+    z-index: 100;
+}
+
+.border-color-primary-1 {
+    border: 2px solid var(--color-primary-1);
+}
+
+.border-start-color-primary-1 {
+    border-left: 1px solid var(--color-primary-1-a);
+}
+
+#happy-childhood {
+    object-fit: cover;
+}
+
+#sun-02 {
+    min-width: 180px !important;
+    width: 10vw;
+}
+
+.strong-title {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.change-blue-box {
+    border: 2px solid var(--color-primary-1-a);
+}
+
+.down-arrow {
+    max-width: 108px !important;
+}
+
+.lh-xl {
+    line-height: 2.5rem !important;
+}
+
+#impact-star-wrapper {
+    min-height: 36%;
+}
+
+/*#impact-star-01 {
+    height: fit-content;
+}*/
+
+#impact-progress {
+    object-fit: cover;
+}
+
+.outreach-post-image-container {
+    min-height: 300px;
+}
+
+.outreach-post-image {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.outreach-post-heading-link p {
+    color: var(--color-dark-1);
+}
+
+.outreach-post-heading-link:hover p {
+    color: var(--color-primary-1) !important;
+}
+
+.achievement-post-heading-link:hover p {
+    color: var(--color-primary-1) !important;
+}
+
+.full-round {
+    border-radius: 50%;
+}
+
+.flex-basis-50 {
+    flex-basis: 50%;
+}
+
+.py-10-vh {
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.swiper-pagination.bullets-big .swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.swiper-pagination.bullets-white .swiper-pagination-bullet {
+    background-color: #fff;
+}
+
+.color-white {
+    color: #fff !important;
+}
+
+.story-post-image-container {
+    min-height: 300px;
+}
+
+.story-post-image {
+    max-height: 300px;
+    object-fit: scale-down;
+}
+
+.story-image {
+    max-height: 600px;
+    object-fit: scale-down;
+}
+
+.opportunities-box {
+    max-height: 500px !important;
+    overflow-y: scroll !important;
+}
+
+/* Scrollbar Styling */
+.pretty-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.pretty-scroll::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.pretty-scroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: var(--color-primary-1) !important;
+}

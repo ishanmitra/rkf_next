@@ -1,0 +1,26 @@
+"use client";
+
+import Footer from "@/components/Footer/Footer";
+import Head from "@/components/Head/Head";
+import NavPanel from "@/components/NavPanel/NavPanel";
+import Scripts from "@/components/Scripts/Scripts";
+
+const RootLayout = ({ children }: Readonly<{ children: React.ReactNode; }>) => {
+    return (
+        <html lang="en">
+            <head>
+                <Head />
+            </head>
+            <body id="body" className="appear-animate" app-url="https://labhya.org/for-children" apt="tI8hFqJOMLMpVPOG922aYbxu2uhPjeITnAOpAvok">
+                <div className="page" id="top">
+                    <NavPanel />
+                    {children}
+                    <Footer />
+                    <Scripts />
+                </div>
+            </body>
+        </html>
+    );
+}
+
+export default RootLayout;

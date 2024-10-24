@@ -1,0 +1,292 @@
+@media only screen and (min-width: 1200px) {
+
+    .split-column-right-short {
+        min-height: 90vh;
+    }
+
+    .split-column-right-short-alt {
+        min-height: 360px;
+    }
+
+    #cloud-03-01 {
+        bottom: 10vh;
+        left: 67%
+    }
+
+    #sun-and-cloud {
+        left: 12%;
+        top: 7vh;
+        z-index: 100;
+    }
+
+    #cloud-01-02 {
+        left: 20%;
+        top: -20vh;
+        z-index: 100;
+    }
+
+    #sun-01 {
+        left: 50%;
+        top: -27vh;
+        z-index: 99;
+    }
+
+    #slum-to-school-bg {
+        background-position: 48% 84% !important;
+        padding-top: 6vw !important;
+        min-height: 90vh;
+    }
+
+    .lh-xl {
+        line-height: 3rem !important;
+    }
+
+    .min-vw-24 {
+        max-width: 24vw !important;
+    }
+
+    .min-vw-27 {
+        max-width: 27vw !important;
+    }
+
+    .min-vw-33 {
+        min-width: 33vw !important;
+    }
+
+    .max-vw-24 {
+        max-width: 24vw !important;
+    }
+
+    .max-vw-27 {
+        max-width: 27vw !important;
+    }
+
+    .max-vw-30 {
+        max-width: 30vw !important;
+    }
+
+    .max-vw-33 {
+        max-width: 33vw !important;
+    }
+
+    .max-vw-36 {
+        max-width: 36vw !important;
+    }
+
+    .max-vw-40 {
+        max-width: 40vw !important;
+    }
+
+    .max-vw-48 {
+        max-width: 48vw !important;
+    }
+
+    .max-vw-72 {
+        max-width: 72vw !important;
+    }
+
+    .max-vw-84 {
+        max-width: 84vw !important;
+    }
+
+    .max-vw-90 {
+        max-width: 90vw !important;
+    }
+
+    .padding-top-12rem {
+        padding-top: 12rem !important;
+    }
+
+    #cloud-02-01 {
+        left: -10%;
+        top: 0;
+        z-index: 100;
+    }
+
+    #star-01 {
+        left: 25%;
+        top: -2vh;
+        z-index: 100;
+    }
+
+    .btn-wrapper {
+        margin-bottom: 0 !important;
+    }
+
+    #home-video {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #meadow {
+        min-height: 50vh;
+    }
+
+    #sun-02 {
+        left: 84%;
+        top: 10%;
+        z-index: 99;
+    }
+
+    #grass {
+        width: 50vw;
+        bottom: 0;
+        right: 0;
+    }
+
+    #iceberg-of-hardship-bg {
+        background-position: 50% 84% !important;
+        min-height: 108vh;
+    }
+
+    #cloud-04-02 {
+        left: 75%;
+        top: 0;
+        z-index: 99;
+    }
+
+    #happy-childhood {
+        height: 100% !important;
+    }
+
+    #moon-01 {
+        margin-top: 5rem !important;
+        margin-left: 5rem !important;
+    }
+
+    #cloud-05-01 {
+        left: 20vw;
+        bottom: -4vh;
+        z-index: 99;
+    }
+
+    #blink-01 {
+        left: 25%;
+        top: 10vh;
+    }
+
+    #blink-02 {
+        left: 42%;
+        top: 15vh;
+    }
+
+    #blink-03 {
+        left: 75%;
+        top: 5vh;
+    }
+
+    #blink-04 {
+        left: 54%;
+        top: 54vh;
+    }
+
+    .change-blue-box-wrapper {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .change-blue-box {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    #shooting-star {
+        left: 84%;
+        top: 0;
+        z-index: 99;
+    }
+
+    #impact-star-01 {
+        left: 25%;
+        top: -2vh;
+        z-index: 100;
+    }
+
+    #impact-progress {
+        min-height: 36vw;
+    }
+
+    #cloud-02-02 {
+        left: -10%;
+        top: -16vh;
+        z-index: 100;
+    }
+
+    #vision-row {
+        min-height: 48vh;
+    }
+
+    .vision-column {
+        min-height: 8vw;
+    }
+
+    .mission-column {
+        min-height: 8vw;
+    }
+
+    #cloud-03-02 {
+        left: 16%;
+        top: 0;
+        z-index: 100;
+    }
+
+    #sun-vision {
+        right: 8%;
+        top: 25%;
+        z-index: 100;
+    }
+
+    #cloud-05-02 {
+        left: 0;
+        bottom: -90px;
+        z-index: 100;
+    }
+
+    #blink-05 {
+        left: 30%;
+        top: 8vh;
+    }
+
+    #blink-06 {
+        left: 48%;
+        top: 9vh;
+    }
+
+    #blink-07 {
+        left: 64%;
+        top: 7vh;
+    }
+
+    #blink-08 {
+        left: 80%;
+        top: 12vh;
+    }
+
+    #blink-09 {
+        left: 84%;
+        bottom: 15vh;
+    }
+
+    #blink-10 {
+        left: 54%;
+        bottom: 8vh;
+    }
+
+    #shooting-star-mission {
+        left: 80%;
+        top: 6vh;
+        z-index: 99;
+    }
+
+    #cloud-01-03 {
+        left: 80%;
+        top: -20vh;
+        z-index: 100;
+    }
+
+    .col-one-fifth {
+        flex: 0 0 auto;
+        width: 19% !important;
+    }
+
+}
